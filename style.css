@@ -1,0 +1,198 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+button {
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	display: flex;
+	width: 90%;
+	height: 100px;
+	margin: auto;
+	align-items: center;
+}
+
+.logo-grupo,
+.menu,
+.admin {
+	display: flex;
+}
+
+.logo-grupo {
+	flex: 1;
+}
+.logo {
+	color: #6CA5B8;
+	font-weight: 1000;
+	margin: 5px;
+}
+nav {
+	flex: 2;
+}
+.menu {
+	justify-content: space-around;
+	list-style: none;
+}
+.guia {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+.admin {
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.apresentacao {
+	animation: drop 1.5s ease;
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
+.espacamento{
+	text-align: center;
+	position: center;
+	padding:20px;
+}
+.introducao {
+	flex: 1;
+}
+.destinos {
+	animation: drop 1s ease;
+	display: flex;
+	width: 50%;
+	margin: auto;
+	min-height: 30vh;
+	align-items: center;
+}
+.intro-texto h1 {
+	font-size: 44px;
+	font-weight: 500;
+	background: linear-gradient(to bottom, #000000, #3F606B);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.intro-texto p {
+	margin-top: 5px;
+	font-size: 22px;
+	color: white;
+}
+.botao {
+	padding: 50px 0px 0px 0px;
+	animation: drop 1.5s ease;
+}
+.botao1 {
+	border: 2px solid #3F606B;
+	background: transparent;
+	color: white;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.botao2 {
+	border: none;
+	background: #3F606B;
+	color: white;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 30px 0px 0px 30px;
+}
+.botao3 {
+	border: none;
+	background:#3F606B;
+	color:#fff;
+	cursor:pointer;
+	display:inline-block;
+	font-size:16px;
+	padding:5px 10px;
+} 
+
+.imagem {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	height: 40vh;
+}
+.imagem img {
+	height: 100%;
+	filter: drop-shadow(0px 5px 3px black);
+	animation: drop 1.5s ease;
+}
+
+.bolafundo1 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+	opacity: 0.5;
+	height: 80%;
+}
+.bolafundo2 {
+	position: absolute;
+	top: 30%;
+	right: 30%;
+	z-index: -1;
+	height: 60%;
+	opacity: 0.4;
+}
+.bolafundo3 {
+	position: absolute;
+	bottom: 0%;
+	left: 20%;
+	z-index: -1;
+}
+#b{position:relative}
+#b:hover{top: -2px;}
+#t{position:relative}
+#t:hover{top: -2px;}
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+@media screen and (max-width: 1024px) {
+	.apresentacao {
+		flex-direction: column;
+	}
+	.introducao {
+		margin-top: 5vh;
+		text-align: center;
+	}
+	.intro-texto h1 {
+		font-size: 30px;
+	}
+	.intro-texto p {
+		font-size: 18px;
+	}
+	.admin {
+		padding: 10px 0px 0px 0px;
+	}
+	.imagem img {
+		height: 80%;
+	}
+	.fundobola1,
+	.fundobola2,
+	.fundobola3 {
+		opacity: 0.2;
+	}
+}
+
+
