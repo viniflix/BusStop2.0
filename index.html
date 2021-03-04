@@ -3,6 +3,8 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"rel="stylesheet" />
 		<link rel="stylesheet" href="./style.css" />
 		<link rel="icon" type="imagem/png" href="img/icon.png" />
@@ -11,19 +13,24 @@
 	<body>
 		<header>
 			<div class="logo-grupo">
-				<img src="./img/logos.png" width="64" height="64" alt="logo" />
-				<h4 class="logo">BUS</br>STOP</h4>
+				<img src="./img/logo.png" width="100" height="100" alt="logo" />
 			</div>
 			<nav>
 				<ul class="menu">
 					<li><a class="guia" id="b" href="#">Inicio</a></li>
 					<li><a class="guia" id="b" href="horarios.html">Horarios</a></li>
-					<li><a class="guia" id="b" href="#">Informações</a></li>
-					<li><a class="guia" id="b" href="#">Contato</a></li>
+					<li><a class="guia" id="b" href="informacoes.html">Informações</a></li>
+					<li><a class="guia" id="b" href="contato.html">Contato</a></li>
 				</ul>
 			</nav>
 			<div class="admin">
-				<a href="admin/"><button class="botao3" id="t">ADMIN</button></a>
+				<div class="w3-dropdown-hover">
+				    <button class="botao3">Ajuda</button>
+				    <div class="w3-dropdown-content w3-bar-block w3-border" style="right:0">
+				      <a href="#" class="w3-bar-item w3-button">Abrir Chamado</a>
+				      <a href="#" class="w3-bar-item w3-button">Enviar Curriculo</a>
+				    </div>
+				</div>
 			</div>
 		</header>
 
@@ -38,8 +45,16 @@
 						</p>
 					</div>
 					<div class="botao">
-						<button class="botao1" id="b">Covid-19</button>
-						<button class="botao2" id="b">Destinos</button>
+						<div class="w3-dropdown-hover">
+							<button class="botao1" id="b">Covid-19</button>
+							<div class="w3-dropdown-content">
+	    						<div class="w3-panel w3-red">
+								  <h3>Atenção!</h3>
+								  <p>O uso de máscara é obrigatório. Fique atento às medidas de segurança necessárias para uma viagem tranquila e segura.</p></br>
+								</div> 
+	    					</div>
+						</div>
+						<a href="./dtn/index.html"><button class="botao2" id="b">Destinos</button></a>
 					</div>
 				</div>
 				<div class="imagem">

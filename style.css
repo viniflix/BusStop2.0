@@ -28,11 +28,6 @@ header {
 .logo-grupo {
 	flex: 1;
 }
-.logo {
-	color: #6CA5B8;
-	font-weight: 1000;
-	margin: 5px;
-}
 nav {
 	flex: 2;
 }
@@ -41,7 +36,7 @@ nav {
 	list-style: none;
 }
 .guia {
-	color: white;
+	color: #3F606B;
 	font-size: 20px;
 	text-decoration: none;
 }
@@ -58,20 +53,15 @@ nav {
 	min-height: 80vh;
 	align-items: center;
 }
-.espacamento{
-	text-align: center;
-	position: center;
-	padding:20px;
-}
 .introducao {
 	flex: 1;
 }
 .destinos {
 	animation: drop 1s ease;
-	display: flex;
-	width: 50%;
+	width: 90%;
 	margin: auto;
-	min-height: 30vh;
+	padding: 20px;
+	text-align: center;
 	align-items: center;
 }
 .intro-texto h1 {
@@ -84,16 +74,17 @@ nav {
 .intro-texto p {
 	margin-top: 5px;
 	font-size: 22px;
-	color: white;
+	color: #3F606B;
 }
+
 .botao {
 	padding: 50px 0px 0px 0px;
 	animation: drop 1.5s ease;
 }
 .botao1 {
 	border: 2px solid #3F606B;
-	background: transparent;
-	color: white;
+	background: white;
+	color: #3F606B;
 	width: 150px;
 	height: 50px;
 	cursor: pointer;
@@ -103,18 +94,20 @@ nav {
 	border: none;
 	background: #3F606B;
 	color: white;
+	margin-left: 20px;
 	width: 150px;
 	height: 50px;
 	cursor: pointer;
 	font-size: 16px;
-	margin: 30px 0px 0px 30px;
 }
 .botao3 {
 	border: none;
-	background:#3F606B;
-	color:#fff;
+	background: #6599AB;
+	color:white;
 	cursor:pointer;
 	display:inline-block;
+	width: 160px;
+	height: 40px;
 	font-size:16px;
 	padding:5px 10px;
 } 
@@ -155,8 +148,6 @@ nav {
 }
 #b{position:relative}
 #b:hover{top: -2px;}
-#t{position:relative}
-#t:hover{top: -2px;}
 
 @keyframes drop {
 	0% {
