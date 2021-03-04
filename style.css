@@ -163,6 +163,15 @@ nav {
 	.apresentacao {
 		flex-direction: column;
 	}
+	nav {
+		position: absolute;
+  		top: 80px;
+  		left: 20;
+	}
+	.menu {
+		display: inline;
+		padding: 10px 10px 10px 10px;
+	}
 	.introducao {
 		margin-top: 5vh;
 		text-align: center;
@@ -177,11 +186,12 @@ nav {
 		padding: 10px 0px 0px 0px;
 	}
 	.imagem img {
-		height: 80%;
+		height: 60%;
 	}
 	.bolafundo1,
 	.bolafundo2,
 	.bolafundo3 {
+		opacity: 0.02;
 		height: 30%;
 	}
 }
