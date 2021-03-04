@@ -179,10 +179,10 @@ nav {
 	.imagem img {
 		height: 80%;
 	}
-	.fundobola1,
-	.fundobola2,
-	.fundobola3 {
-		opacity: 0.2;
+	.bolafundo1,
+	.bolafundo2,
+	.bolafundo3 {
+		height: 30%;
 	}
 }
 
