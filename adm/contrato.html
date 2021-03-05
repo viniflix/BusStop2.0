@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="./styleadm.css" />
+		<link rel="icon" type="imagem/png" href="../img/icon.png" />
+		<title>BUSTOP - Trabalhe Conosco</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo-grupo">
+				<img src="../img/logo.png" width="100" height="100" alt="logo" />
+			</div>
+			<nav>
+				<ul class="menu">
+					<li><a class="guia" id="b" href="../index.html">Inicio</a></li>
+					<li><a class="guia" id="b" href="../dtn/index.html">Destinos</a></li>
+					<li><a class="guia" id="b" href="../informacoes.html">Informações</a></li>
+					<li><a class="guia" id="b" href="../contato.html">Contato</a></li>
+				</ul>
+			</nav>
+			<div class="admin">
+				<div class="w3-dropdown-hover">
+				    <button class="botao3">Ajuda</button>
+				    <div class="w3-dropdown-content w3-bar-block w3-border" style="right:0">
+				      <a href="../adm/chamado.html" class="w3-bar-item w3-button">Abrir Chamado</a>
+				      <a href="#" class="w3-bar-item w3-button">Enviar Curriculo</a>
+				    </div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<h1 class="centro" style="font-size:400%; color:#3F606B;"> Abrir Chamado </h1>
+			<div class="container centro">  
+				<form action="#" class="form-contato" method="post" tabindex="1">  
+					<input type="text" class="form-contato-input" name="nome" placeholder="Funcionario" required />  
+			     	<input type="text" class="form-contato-input" name="assunto" placeholder="Assunto" required />
+			     	<select class="form-contato-input" name="setor" required />
+		                <option value="">Setor...</option>
+						<option value="ADM">Administrativa</option>
+						<option value="GER">Gerencial</option>
+						<option value="OPE">Operacional</option>
+					</select>  
+			     	<textarea class="form-contato-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>  
+			     	<button type="submit" class="form-contato-button">Enviar</button>  
+			  </form>  
+			</div>
+			
+
+
+			<img class="bolafundo1" src="../img/bola1.png" alt="" />
+			<img class="bolafundo2" src="../img/bola2.png" alt="" />
+			<img class="bolafundo3" src="../img/bola3.png" alt="" />
+		</main>
+	</body>
+</html>
