@@ -10,7 +10,9 @@ body {
 button {
 	font-family: 'Poppins', sans-serif;
 }
-
+h1 {
+	font-family: 'Lobster' ;
+}
 header {
 	display: flex;
 	width: 90%;
@@ -56,13 +58,16 @@ nav {
 .introducao {
 	flex: 1;
 }
-.destinos {
+.centro {
 	animation: drop 1s ease;
 	width: 90%;
 	margin: auto;
 	padding: 20px;
 	text-align: center;
 	align-items: center;
+}
+.box {
+	display: inline-block;
 }
 .intro-texto h1 {
 	font-size: 44px;
@@ -76,7 +81,6 @@ nav {
 	font-size: 22px;
 	color: #3F606B;
 }
-
 .botao {
 	padding: 50px 0px 0px 0px;
 	animation: drop 1.5s ease;
